@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "richtext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NuPlay/RichText.git",
+      "state" : {
+        "revision" : "8940ef23356c03531f9c26355f8197857f845a78",
+        "version" : "2.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

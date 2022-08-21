@@ -9,19 +9,38 @@
 /* Begin PBXBuildFile section */
 		D140D27428B2075100FCCED5 /* swift_wordpressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D26428B2074B00FCCED5 /* swift_wordpressApp.swift */; };
 		D140D27528B2075100FCCED5 /* swift_wordpressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D26428B2074B00FCCED5 /* swift_wordpressApp.swift */; };
-		D140D27628B2075100FCCED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D26528B2074B00FCCED5 /* ContentView.swift */; };
-		D140D27728B2075100FCCED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D26528B2074B00FCCED5 /* ContentView.swift */; };
 		D140D27828B2075100FCCED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D140D26628B2075100FCCED5 /* Assets.xcassets */; };
 		D140D27928B2075100FCCED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D140D26628B2075100FCCED5 /* Assets.xcassets */; };
+		D140D28528B2079100FCCED5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D28428B2079100FCCED5 /* HomeView.swift */; };
+		D140D28628B2079100FCCED5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D28428B2079100FCCED5 /* HomeView.swift */; };
+		D140D28828B207E200FCCED5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D28728B207E200FCCED5 /* Post.swift */; };
+		D140D28928B207E200FCCED5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D28728B207E200FCCED5 /* Post.swift */; };
+		D140D28B28B20A4B00FCCED5 /* PostModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D28A28B20A4B00FCCED5 /* PostModelData.swift */; };
+		D140D28C28B20A4B00FCCED5 /* PostModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D28A28B20A4B00FCCED5 /* PostModelData.swift */; };
+		D140D29428B21D5100FCCED5 /* WPDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D29328B21D5100FCCED5 /* WPDate.swift */; };
+		D140D29528B21D5100FCCED5 /* WPDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D29328B21D5100FCCED5 /* WPDate.swift */; };
+		D140D29728B2225C00FCCED5 /* ListPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D29628B2225C00FCCED5 /* ListPostView.swift */; };
+		D140D29828B2225C00FCCED5 /* ListPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D29628B2225C00FCCED5 /* ListPostView.swift */; };
+		D140D29A28B2292B00FCCED5 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D29928B2292B00FCCED5 /* PostDetailView.swift */; };
+		D140D29B28B2292B00FCCED5 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D29928B2292B00FCCED5 /* PostDetailView.swift */; };
+		D140D29D28B22D3100FCCED5 /* HTMLStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D29C28B22D3100FCCED5 /* HTMLStringView.swift */; };
+		D140D29E28B22D3100FCCED5 /* HTMLStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140D29C28B22D3100FCCED5 /* HTMLStringView.swift */; };
+		D140D2A128B2338400FCCED5 /* RichText in Frameworks */ = {isa = PBXBuildFile; productRef = D140D2A028B2338400FCCED5 /* RichText */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D140D26428B2074B00FCCED5 /* swift_wordpressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_wordpressApp.swift; sourceTree = "<group>"; };
-		D140D26528B2074B00FCCED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D140D26628B2075100FCCED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D140D26B28B2075100FCCED5 /* swift_wordpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_wordpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D140D27128B2075100FCCED5 /* swift_wordpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_wordpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D140D27328B2075100FCCED5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D140D28428B2079100FCCED5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D140D28728B207E200FCCED5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D140D28A28B20A4B00FCCED5 /* PostModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModelData.swift; sourceTree = "<group>"; };
+		D140D29328B21D5100FCCED5 /* WPDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPDate.swift; sourceTree = "<group>"; };
+		D140D29628B2225C00FCCED5 /* ListPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPostView.swift; sourceTree = "<group>"; };
+		D140D29928B2292B00FCCED5 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		D140D29C28B22D3100FCCED5 /* HTMLStringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLStringView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D140D2A128B2338400FCCED5 /* RichText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				D140D26428B2074B00FCCED5 /* swift_wordpressApp.swift */,
-				D140D26528B2074B00FCCED5 /* ContentView.swift */,
+				D140D28328B2076700FCCED5 /* Views */,
+				D140D28228B2075B00FCCED5 /* Model */,
 				D140D26628B2075100FCCED5 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -78,6 +99,27 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		D140D28228B2075B00FCCED5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D140D28728B207E200FCCED5 /* Post.swift */,
+				D140D28A28B20A4B00FCCED5 /* PostModelData.swift */,
+				D140D29328B21D5100FCCED5 /* WPDate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D140D28328B2076700FCCED5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D140D28428B2079100FCCED5 /* HomeView.swift */,
+				D140D29928B2292B00FCCED5 /* PostDetailView.swift */,
+				D140D29C28B22D3100FCCED5 /* HTMLStringView.swift */,
+				D140D29628B2225C00FCCED5 /* ListPostView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +136,9 @@
 			dependencies = (
 			);
 			name = "swift_wordpress (iOS)";
+			packageProductDependencies = (
+				D140D2A028B2338400FCCED5 /* RichText */,
+			);
 			productName = "swift_wordpress (iOS)";
 			productReference = D140D26B28B2075100FCCED5 /* swift_wordpress.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +187,9 @@
 				Base,
 			);
 			mainGroup = D140D25E28B2074B00FCCED5;
+			packageReferences = (
+				D140D29F28B2338400FCCED5 /* XCRemoteSwiftPackageReference "RichText" */,
+			);
 			productRefGroup = D140D26C28B2075100FCCED5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,8 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D140D27628B2075100FCCED5 /* ContentView.swift in Sources */,
+				D140D29428B21D5100FCCED5 /* WPDate.swift in Sources */,
+				D140D28828B207E200FCCED5 /* Post.swift in Sources */,
+				D140D29728B2225C00FCCED5 /* ListPostView.swift in Sources */,
+				D140D28528B2079100FCCED5 /* HomeView.swift in Sources */,
+				D140D29A28B2292B00FCCED5 /* PostDetailView.swift in Sources */,
 				D140D27428B2075100FCCED5 /* swift_wordpressApp.swift in Sources */,
+				D140D29D28B22D3100FCCED5 /* HTMLStringView.swift in Sources */,
+				D140D28B28B20A4B00FCCED5 /* PostModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +239,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D140D27728B2075100FCCED5 /* ContentView.swift in Sources */,
+				D140D29528B21D5100FCCED5 /* WPDate.swift in Sources */,
+				D140D28928B207E200FCCED5 /* Post.swift in Sources */,
+				D140D29828B2225C00FCCED5 /* ListPostView.swift in Sources */,
+				D140D28628B2079100FCCED5 /* HomeView.swift in Sources */,
+				D140D29B28B2292B00FCCED5 /* PostDetailView.swift in Sources */,
 				D140D27528B2075100FCCED5 /* swift_wordpressApp.swift in Sources */,
+				D140D29E28B22D3100FCCED5 /* HTMLStringView.swift in Sources */,
+				D140D28C28B20A4B00FCCED5 /* PostModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +504,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D140D29F28B2338400FCCED5 /* XCRemoteSwiftPackageReference "RichText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NuPlay/RichText.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D140D2A028B2338400FCCED5 /* RichText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D140D29F28B2338400FCCED5 /* XCRemoteSwiftPackageReference "RichText" */;
+			productName = RichText;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D140D25F28B2074B00FCCED5 /* Project object */;
 }
